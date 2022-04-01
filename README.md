@@ -24,7 +24,6 @@ This is a Matlab GUI for specifying Markov Decision Processes (MDPs), for use as
 ## GUI
 
 Run the GUI by cloning the repo
-Clone the repo
 ```sh
 git clone https://github.com/jbakermans/torch_tem.git
 ```
@@ -62,7 +61,7 @@ The image below shows an example where a yellow node has been added to the regul
 
 ### Edges
 
-The ```Edges``` manipulates graph edges. The total number of actions (e.g. four in the case of a square grid graph with no self-actions: north, east, south, and west) can be specified here. There is an option to add an edge (click on the source node, then on the target node to add an edge between the two) and removing an edge (click on the source node, then on the target node to remove an edge between the two).
+The ```Edges``` section manipulates graph edges. The total number of actions (e.g. four in the case of a square grid graph with no self-actions: north, east, south, and west) can be specified here. There is an option to add an edge (click on the source node, then on the target node to add an edge between the two) and removing an edge (click on the source node, then on the target node to remove an edge between the two).
 
 The image below shows an example where a red edge has been added from the new yellow node to the purple node.
 
@@ -112,3 +111,4 @@ A graph can be saved by selecting Save under the ```File``` section, as a Matlab
 ## Acknowledgements
 
 The included circulant function was written by John D'Errico and provided on the [Matlab File Exchange](https://uk.mathworks.com/matlabcentral/fileexchange/22858-circulant-matrix).
+The included rgb2hex function was written by Chad Greene and provided on the [Matlab File Exchange](https://uk.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb).
